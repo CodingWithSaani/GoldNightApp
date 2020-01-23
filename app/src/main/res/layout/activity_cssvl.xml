@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoldCampusSLVScreens.CSSVL">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVL CS"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:id="@+id/logoTV"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPEAK YOUR NAME"
+        android:layout_below="@id/logoTV"
+        android:id="@+id/nameBtn"
+        android:background="@drawable/other_btn_bg"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:onClick="tellYourName"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tell About Sold Tickets"
+        android:layout_below="@id/nameBtn"
+        android:id="@+id/ticketsBtn"
+        android:background="@drawable/other_btn_bg"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="tellMeAboutNoOfTicketsSold"
+        />
+
+
+</RelativeLayout>
